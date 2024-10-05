@@ -1,0 +1,124 @@
+.wrapperLogo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.wrapperLogoAuth {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.logoClassName {
+  border-radius: 100px;
+  width: 71px;
+  height: 71px;
+}
+.logoClassNameSmall {
+  border-radius: 100px;
+  width: 55px;
+  height: 55px;
+}
+.wrapperSignInTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem !important;
+  text-align: -webkit-center;
+}
+.titleClassName {
+  color: #303030;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+}
+.subTitleClassNameP {
+  color: #535f6b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* .css-11beh2b-MuiPaper-root-MuiDrawer-paper{
+    overflow-y: hidden !important;
+}
+.css-43uny0-MuiPaper-root-MuiDrawer-paper{
+    overflow-y: hidden !important;
+} */
+.wrapperLogoSidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.wrapperLogoSidebarCollapsed {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.borderrr {
+  border-top: 0px;
+  border-bottom: 1px solid #deeaff;
+  border-right: 1px solid #deeaff;
+  border-left: 1px solid #deeaff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4788ff; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4788ff; /* Color when hovering over the thumb */
+}
+
+.MuiBox-root.css-1hncfna {
+  height: fit-content;
+}
+.wrapperLeftNavbar {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.IconsSmall {
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+}
+
+input[name="car_image"] {
+  width: -webkit-fill-available;
+}
+
+label[class="sc-aXZVg juBESy  "] {
+  width: 100%;
+}
+/* .MuiBox-root.css-oik1zu {
+  width: 14% !important;
+} */
+.page-wrapper.css-y7ffhw {
+  width: 80% !important;
+  max-width: 80% !important;
+}

@@ -1,0 +1,14 @@
+.ROWTABLE {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0;
+  background-color: white;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: black;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}

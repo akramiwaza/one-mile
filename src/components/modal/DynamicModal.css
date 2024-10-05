@@ -1,0 +1,41 @@
+.custom-dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  color: #333333;
+}
+.custom-dropzone-dark {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+.custom-dropzone-dark:hover {
+  border-color: #4788ff;
+  background-color: #535f6b;
+}
+.custom-dropzone:hover {
+  border-color: #333333;
+  background-color: #f0f0f0;
+}
+@media screen and (min-width: 700px) {
+  .contanerModal {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contanerModal {
+    display: block;
+    justify-content: space-between;
+    z-index: 1;
+  }
+}

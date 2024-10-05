@@ -1,0 +1,56 @@
+/* This is a simplified CSS file for styling the React.js components */
+.shade {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000099;
+  z-index: 9999999999999999;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.dialogBox {
+  background-color: white;
+  border-radius: 16px;
+  min-height: 120px;
+  z-index: 99999999999999;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.titleText {
+  padding: 10px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.dialogBody {
+  padding: 30px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+
+.dialogActions {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.actionButton {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 70px;
+  width: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Add more specific CSS rules as needed for styling your components. */
