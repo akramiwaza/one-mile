@@ -11,6 +11,8 @@ export const GetAcitivitiesFlashcard =
   ({ callback, id }) =>
   async (dispatch, getState) => {
     try {
+      console.log("getState : ", getState);
+
       let link = UrlApi.activities.activities_flashcard.get;
       const response = await PostFunction({
         data: { id },
